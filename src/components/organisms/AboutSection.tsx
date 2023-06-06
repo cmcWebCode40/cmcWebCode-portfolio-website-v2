@@ -29,7 +29,7 @@ const AboutSection: FunctionComponent<AboutSectionProps> = ({
         </Heading>
         <div>
           {Skills.map((item) => (
-            <div className="my-5">
+            <div className="my-5" key={item.title}>
               <Heading size="sm" className="font-bold mb-5 text-base">
                 {item.title}
               </Heading>

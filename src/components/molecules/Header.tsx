@@ -12,7 +12,7 @@ const Header: FunctionComponent = () => {
       <nav className="hidden md:block">
         <ul className="flex items-center justify-center space-x-6">
           {navLinks.map((item) => (
-            <li className="flex font-semibold uppercase">
+            <li key={item.title} className="flex font-semibold uppercase">
               <Link title={item.title} href={item.link}>{item.title}</Link>{" "}
               <Icon className="-mt-2 -ml-2" type="dot" />
             </li>
