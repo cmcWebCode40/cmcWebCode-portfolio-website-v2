@@ -1,17 +1,22 @@
-import React, { FunctionComponent } from 'react'
-import { Heading, Paragraph } from '../atoms'
+import React, { FunctionComponent, HtmlHTMLAttributes } from "react";
+import { Heading, Paragraph } from "../atoms";
 
-const ProjectInfo :FunctionComponent = () => {
-  return (
-    <div>
-      <Heading>
-        Title
-      </Heading>
-      <Paragraph>
-        Body content
-      </Paragraph>
-    </div>
-  )
+interface ProjectInfoProps extends HtmlHTMLAttributes<HTMLDivElement> {
+  title: string;
+  description: string;
 }
 
-export default ProjectInfo
+const ProjectInfo: FunctionComponent<ProjectInfoProps> = ({
+  title,
+  description,
+  ...rest
+}) => {
+  return (
+    <div {...rest}>
+      <Heading size="sm" className="font-medium text-xl mb-4">{title}</Heading>
+      <Paragraph>{description}</Paragraph>
+    </div>
+  );
+};
+
+export default ProjectInfo;

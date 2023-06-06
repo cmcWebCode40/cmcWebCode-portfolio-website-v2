@@ -1,1 +1,2 @@
-export * from './utils'
+export * from './classMerge'
+export * from './data'
