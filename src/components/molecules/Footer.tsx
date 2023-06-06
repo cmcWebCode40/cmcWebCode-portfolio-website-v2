@@ -10,7 +10,7 @@ const Footer: FunctionComponent = () => {
       </Heading>
       <div className="flex items-center justify-center space-x-4">
         {footerLinks.map((item) => (
-          <ButtonLink title={item.title} href={item.link}>
+          <ButtonLink key={item.title} title={item.title} href={item.link}>
             <Icon type={item.type} />
           </ButtonLink>
         ))}
