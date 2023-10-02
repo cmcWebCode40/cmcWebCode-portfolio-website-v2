@@ -10,9 +10,9 @@ import {
 
 
 export default function Home() {
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll({ smooth: 1.5 });
   return (
-    <>
+    <div>
       <motion.div className="fixed h-1 top-0 right-0 left-0 bg-black transform-none" style={{ scaleX: scrollYProgress }} />
       <main className="flex min-h-screen flex-col  md:px-24 px-4 py-8 ">
         <Header />
@@ -28,6 +28,6 @@ export default function Home() {
           <Footer />
         </div>
       </main>f
-    </>
+    </div>
   );
 }
