@@ -13,7 +13,7 @@ interface ProjectItemProps extends HtmlHTMLAttributes<HTMLDivElement> {
     apple?: string;
     website?: string;
   };
-  type?:string
+  type?: string
 }
 
 const ProjectItem: FunctionComponent<ProjectItemProps> = ({
@@ -31,7 +31,7 @@ const ProjectItem: FunctionComponent<ProjectItemProps> = ({
       {...rest}
       className={`flex flex-col justify-between items-center  my-10 ${reverseClass}`}
     >
-      <div className="shadow-md shadow-slate-400/40 rounded-md">
+      <div className="shadow-sm shadow-slate-400/40 rounded-md">
         <Image
           className="rounded-lg"
           src={imagePath}

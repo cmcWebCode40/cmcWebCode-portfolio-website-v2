@@ -45,6 +45,28 @@ export const projects = [
     type:'app'
   },
   {
+    title: "Amat Now",
+    description: `AMATNow technology connects restaurants, food stores, and grocery shops with their customers wherever they may be in Istanbul. We are an e-commerce platform on a mission to empower our users with the most competitive pricing as well as delivery in real-time. `,
+    imagePath: "/images/amatnow_app.png",
+    links: {
+      website: undefined,
+      google: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en&gl=US",
+      apple: 'https://apps.apple.com/ng/app/amatnow/id1602920651?platform=iphone',
+    },
+    type:'app'
+  },
+  {
+    title: "React Native Paystack Webview SDK",
+    description: `Paystack React Native SDK enables easy integration of Paystack payments into your React Native applications using Web View.`,
+    imagePath: "/images/paystack.png",
+    links: {
+      google: undefined,
+      apple: undefined,
+      website: "https://github.com/cmcWebCode40/react-native-paystack-webview-sdk",
+    },
+    type:'web'
+  },
+  {
     title: "React Native OTP Input ",
     description: `A Light weight simple and flexible react native opt input NPM Library`,
     imagePath: "/images/npm.png",
@@ -52,17 +74,6 @@ export const projects = [
       google: undefined,
       apple: undefined,
       website: "https://www.npmjs.com/package/react-native-input-for-otp",
-    },
-    type:'web'
-  },
-  {
-    title: "Tutornia Website",
-    description: `Learning & educational materials made easy for college and university  students..`,
-    imagePath: "/images/tutornia_webapp.png",
-    links: {
-      website: 'https://www.tutornia.com/',
-      google: undefined,
-      apple: undefined,
     },
     type:'web'
   },
@@ -104,11 +115,11 @@ export const footerLinks: Array<{
   {
     title: "LinkedIn",
     link: LINKEDIN_LINK,
-    type: "mail",
+    type: "linkedIn",
   },
   {
-    title: "Twitter",
+    title: "X",
     link: TWITTER_LINK,
-    type: "mail",
+    type: "twitter",
   },
 ];
