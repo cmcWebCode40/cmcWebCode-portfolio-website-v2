@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.amatnow.app.amatnow",
+      "sha256_cert_fingerprints": [
+        "C8:45:4D:7E:D6:C7:2E:61:5D:28:FC:E5:3F:BF:47:4C:1A:A3:20:94:39:CD:2E:97:09:A2:6C:F6:0D:22:78:F0"
+      ]
+    }
+  }
+]
