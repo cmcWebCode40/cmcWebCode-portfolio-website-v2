@@ -1,8 +1,8 @@
 import './globals.css'
 import localFont from 'next/font/local'
 
-const Montserrat = localFont({ 
-  src:[
+const Montserrat = localFont({
+  src: [
     {
       path: '../../public/fonts/Montserrat-Bold.ttf',
       weight: '700',
@@ -30,7 +30,7 @@ const Montserrat = localFont({
     },
   ],
   variable: '--font-montserrat'
- })
+})
 
 export const metadata = {
   title: 'Michael chinweike Portfolio',
@@ -44,6 +44,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-itunes-app" content="app-id=1602920651" />
+      </head>
       <body className={Montserrat.className}>{children}</body>
     </html>
   )

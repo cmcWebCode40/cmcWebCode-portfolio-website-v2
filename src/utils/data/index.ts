@@ -23,6 +23,17 @@ export const Skills = [
 
 export const projects = [
   {
+    title: "Amat Now",
+    description: `AMATNow technology connects restaurants, food stores, and grocery shops with their customers wherever they may be in Istanbul. We are an e-commerce platform on a mission to empower our users with the most competitive pricing as well as delivery in real-time. `,
+    imagePath: "/images/amatnow_app.png",
+    links: {
+      website: undefined,
+      google: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en&gl=US",
+      apple: 'https://apps.apple.com/ng/app/amatnow/id1602920651?platform=iphone',
+    },
+    type:'app'
+  },
+  {
     title: "Tutornia",
     description: `Learning & educational materials made easy for college and university  students..`,
     imagePath: "/images/tutornia.png",
@@ -41,17 +52,6 @@ export const projects = [
       website: undefined,
       google: "https://play.google.com/store/apps/details?id=io.verida.vault",
       apple: 'https://apps.apple.com/us/app/verida-wallet/id1546599632',
-    },
-    type:'app'
-  },
-  {
-    title: "Amat Now",
-    description: `AMATNow technology connects restaurants, food stores, and grocery shops with their customers wherever they may be in Istanbul. We are an e-commerce platform on a mission to empower our users with the most competitive pricing as well as delivery in real-time. `,
-    imagePath: "/images/amatnow_app.png",
-    links: {
-      website: undefined,
-      google: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en&gl=US",
-      apple: 'https://apps.apple.com/ng/app/amatnow/id1602920651?platform=iphone',
     },
     type:'app'
   },
