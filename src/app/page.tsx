@@ -1,12 +1,13 @@
 "use client"
 
-import { Footer, Header } from "@/components/molecules";
-import { motion, useScroll } from "framer-motion"
-import {
-  AboutSection,
-  HighlightSection,
-  ProjectSection,
-} from "@/components/organisms";
+import { useScroll, motion } from "framer-motion"
+import { lazy } from "react";
+
+const Footer = lazy(() => import("../components/molecules/Footer"));
+const Header = lazy(() => import("../components/molecules/Header"));
+const AboutSection = lazy(() => import("../components/organisms/AboutSection"));
+const HighlightSection = lazy(() => import("../components/organisms/HighlightSection"));
+const ProjectSection = lazy(() => import("../components/organisms/ProjectSection"));
 
 
 export default function Home() {
@@ -17,7 +18,6 @@ export default function Home() {
       <main className="flex min-h-screen flex-col  md:px-24 px-4 py-8 ">
         <Header />
         <HighlightSection />
-
         <div id="works">
           <ProjectSection className="my-20" />
         </div>
