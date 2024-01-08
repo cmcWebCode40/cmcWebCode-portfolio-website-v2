@@ -18,7 +18,7 @@ const ProfileHeading: FunctionComponent<ProfileHeadingProps> = ({
         size="sm"
         className="font-medium text-left text-xl md:text-2xl lg:text-2xl leading-10 md:leading-10"
       >
-        Interested in React Native, Expo and Mobile Developmenent .
+        Interested in React Native, Expo and Mobile/Web Developmenent .
       </Heading>
     </div>
   );

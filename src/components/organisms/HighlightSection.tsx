@@ -1,20 +1,17 @@
-import Image from "next/image";
 import React, { FunctionComponent } from "react";
+import Lottie from "lottie-react";
 import { ProfileHeading, ProfileLinks } from "../molecules";
 import { ButtonLink } from "../atoms";
 import { RESUME_LINK } from "@/constants/links";
+import techNetworkAnimation from "../../../public/animation.json";
 
 const HighlightSection: FunctionComponent = () => {
   return (
     <div className="flex justify-between md:flex-row-reverse  flex-col items-center mt-16">
       <div className="mb-6 md:mb-0">
-        <Image
-          src="/images/profile_photo.jpeg"
-          alt="Michael king"
-          width={400}
-          height={400}
-          priority
-        />
+        <Lottie style={{
+          height: 500,
+        }} animationData={techNetworkAnimation} loop={true} />
       </div>
       <div>
         <ProfileHeading className="mb-6" />

@@ -3,11 +3,11 @@ import { EMAIL_LINK, GITHUB_LINK, LINKEDIN_LINK, TWITTER_LINK } from "@/constant
 export const Skills = [
   {
     title: "Languages",
-    body: `JavaScript(ES6+), TypeScript, HTML 5, CSS 3, SASS, Node.js, GraphQL.`,
+    body: `JavaScript & TypeScript`,
   },
   {
     title: "Frameworks & Tools",
-    body: ` React , React Native , Nextjs , Vue 2 & Vue 3, Vite , Tailwind CSS, Material-UI,  Chakra-UI, Express.js, Redux, Firebase, Strapi, Git & GitHub, Netlify, Vercel.
+    body: ` React , React Native , Nextjs , Vue, Tailwind CSS, Express.js, Redux, Firebase, Git & GitHub .
     `,
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
   {
     title: "Amat Now",
     description: `AMATNow technology connects restaurants, food stores, and grocery shops with their customers wherever they may be in Istanbul. We are an e-commerce platform on a mission to empower our users with the most competitive pricing as well as delivery in real-time. `,
-    imagePath: "/images/amatnow_app.png",
+    imagePath: "/images/amatnow_store.png",
     links: {
       website: undefined,
       google: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en&gl=US",
