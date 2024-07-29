@@ -7,7 +7,7 @@ const Header: FunctionComponent = () => {
   return (
     <div className="flex justify-between flex-col md:flex-row items-center">
       <Heading title="Logo" size="sm" className="font-bold text-2xl">
-        Michael King <span className="text-4xl">👑</span>
+        Michael Chinweike <span className="text-4xl">👑</span>
       </Heading>
       <nav className="hidden md:block">
         <ul className="flex items-center justify-center space-x-6">

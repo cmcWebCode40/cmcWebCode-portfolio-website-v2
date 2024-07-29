@@ -1,7 +1,7 @@
 export const GITHUB_LINK = "https://github.com/cmcWebCode40";
 
 export const LINKEDIN_LINK =
-  "https://www.linkedin.com/in/chinweike-michael-chinonso-467360a8/";
+  "https://www.linkedin.com/in/chinweike-chinonso-michael-467360a8/";
 
 export const TWITTER_LINK = "https://twitter.com/cmcWebCode/";
 

@@ -29,7 +29,7 @@ const ProjectItem: FunctionComponent<ProjectItemProps> = ({
   return (
     <div
       {...rest}
-      className={`flex flex-col justify-between items-center  my-10 ${reverseClass}`}
+      className={`flex flex-col justify-between items-center  my-14 ${reverseClass}`}
     >
       <div className="shadow-sm shadow-slate-400/40 rounded-md">
         <Image
