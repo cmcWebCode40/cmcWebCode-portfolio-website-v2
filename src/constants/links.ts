@@ -1,5 +1,7 @@
 export const GITHUB_LINK = "https://github.com/cmcWebCode40";
 
+export const WHATSAPP_NUMBER = "https://wa.me/+2348165084064";
+
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/chinweike-chinonso-michael-467360a8/";
 
