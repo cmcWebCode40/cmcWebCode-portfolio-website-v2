@@ -6,3 +6,4 @@ export { default as ProfileLinks } from "./ProfileLinks";
 export { default as ProjectInfo } from "./ProjectInfo";
 export { default as ProjectItem } from "./ProjectItem";
 export { default as ProfileHeading } from "./ProfileHeading";
+export { default as Segment } from "./Segment";
