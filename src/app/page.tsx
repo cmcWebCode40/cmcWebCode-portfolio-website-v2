@@ -21,7 +21,7 @@ export default function Home() {
         <div id="works">
           <ProjectSection className="my-20" />
         </div>
-        <div id="about">
+        <div id="about" className="flex flex-col justify-center items-center mx-auto">
           <AboutSection className="my-20" />
         </div>
         <div id="footer">

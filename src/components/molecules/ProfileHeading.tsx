@@ -12,13 +12,13 @@ const ProfileHeading: FunctionComponent<ProfileHeadingProps> = ({
         size="sm"
         className="font-bold text-left text-3xl md:text-4xl lg:text-5xl mb-6"
       >
-        Frontend Engineer.
+        Software Engineer.
       </Heading>
       <Heading
         size="sm"
         className="font-medium text-left text-xl md:text-2xl lg:text-2xl leading-10 md:leading-10"
-      >
-        Interested in React, React Native, Expo and Mobile/Web Development .
+      > 
+      Building modern software products with React, React Native, and Expo, with a keen interest in Mobile/Web Development and AI.
       </Heading>
     </div>
   );

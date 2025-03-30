@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { FunctionComponent } from "react";
 import { Paragraph } from "../atoms";
-import { EMAIL_LINK, GITHUB_LINK, LINKEDIN_LINK, WHATSAPP_NUMBER } from "@/constants/links";
+import { EMAIL_LINK, GITHUB_LINK, LINKEDIN_LINK } from "@/constants/links";
 
 const ProfileLinks: FunctionComponent = () => {
   return (
@@ -31,16 +31,7 @@ const ProfileLinks: FunctionComponent = () => {
           href={EMAIL_LINK}
           title="Email"
         >
-          Email
-        </Link>
-        <span>,or</span>
-        <Link
-          className="underline font-medium"
-          target="_blank"
-          href={WHATSAPP_NUMBER}
-          title="Email"
-        >
-          WhatsApp
+         & Email
         </Link>
       </Paragraph>
     </div>
