@@ -13,7 +13,7 @@ const HighlightSection: FunctionComponent = () => {
           height: 500,
         }} animationData={techNetworkAnimation} loop={true} />
       </div>
-      <div>
+      <div className="md:basis-2/4">
         <ProfileHeading className="mb-6" />
         <ProfileLinks />
         <ButtonLink

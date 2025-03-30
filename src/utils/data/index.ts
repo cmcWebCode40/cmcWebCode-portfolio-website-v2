@@ -11,15 +11,6 @@ export const Skills = [
     body: `JavaScript, TypeScript & Kotlin`,
   },
   {
-    title: "Frameworks & Tools",
-    body: `React, React Native, Expo, Nextjs, Git & GitHub .
-    `,
-  },
-  {
-    title: "Productivity",
-    body: `Slack, Trello, ClickUp, Discord, Notion, Zenhub, Google Apps.`,
-  },
-  {
     title: "Others",
     body: `Performance Optimization,  Version Control Systems, PWAs, CI/CD ,Component Design Patterns,, Responsive Web/Mobile Design, Communication, Team Integration, Collaboration, Critical Thinking, Professionalism, Adaptability.`,
   },
@@ -32,7 +23,7 @@ export const MOBILE_APPLICATIONS_LIST = [
     imagePath: "/images/monbud.png",
     links: {
       website: undefined,
-      google: '#',
+      google: 'https://play.google.com/store/apps/details?id=com.finbudtechnologieslimited.monbud&hl=en',
       apple:
         "https://apps.apple.com/us/app/monbud/id6476326261?platform=iphone",
     },
@@ -111,6 +102,17 @@ export const SDKS_LISTS = [
     },
     type: "web",
   },
+  {
+    title: "React Native Interswitch Payment Gateway (IPG) SDK.",
+    description: `The Interswitch React Native SDK simplifies the integration of the Interswitch Payment Gateway (IPG) into your React Native app using a WebView component..`,
+    imagePath: "/images/Group 604 (1).png",
+    links: {
+      google: undefined,
+      apple: undefined,
+      website: "https://www.npmjs.com/package/react-native-interswitch-pay?activeTab=readme",
+    },
+    type: "web",
+  },
 ];
 
 export const navLinks = [
@@ -118,10 +120,10 @@ export const navLinks = [
     title: "Works",
     link: "#works",
   },
-  {
-    title: "About",
-    link: "#about",
-  },
+  // {
+  //   title: "About",
+  //   link: "#about",
+  // },
   {
     title: "Contact",
     link: "#footer",
