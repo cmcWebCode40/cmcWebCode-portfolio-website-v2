@@ -1,5 +1,5 @@
 export const GITHUB_LINK = "https://github.com/cmcWebCode40";
-export const LINKEDIN_LINK = "https://www.linkedin.com/in/chinweike-chinonso-michael-467360a8/";
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/michael-chinonso-chinweike-467360a8/";
 export const TWITTER_LINK = "https://twitter.com/cmcWebCode/";
 export const EMAIL_LINK = "infinitymichael7@gmail.com";
 export const RESUME_LINK = "https://docs.google.com/document/d/1goQoqk0VHZWyOvXUgLRYZPnNobxmd-4HZ0ZnTz4n6lI/edit?usp=sharing";
@@ -7,9 +7,9 @@ export const RESUME_LINK = "https://docs.google.com/document/d/1goQoqk0VHZWyOvXU
 export const profile = {
   name: "Michael Chinweike",
   title: "Software Engineer",
-  company: "",
+  company: "Mobile Applications",
   description:
-    "Building Mobile Applications, org-wide and open source development tools. Passionate about creating exceptional user experiences and developer tooling.",
+    "I build mobile applications at the intersection of fin-tech, IoT, and AI. Currently at Interswitch Innovation Lab, I ship production apps, develop open source SDKs, and bridge the gap between hardware and software, from Bluetooth meters to NFC payments to AI-powered experiences.",
   location: "Lagos, Nigeria",
   email: EMAIL_LINK,
   github: GITHUB_LINK,
@@ -34,18 +34,25 @@ export const workExperience: WorkExperience[] = [
   {
     id: "1",
     company: "Interswitch Group",
-    role: "Software Engineer - Innovation",
+    role: "Software Engineer - Innovation Lab",
     period: "Feb 2024 - Present",
     location: "Lagos State, Nigeria",
     description:
-      "Working on innovative mobile and frontend solutions at Africa's leading integrated digital payments and commerce company.",
+      "Building prototypes, proof-of-concepts, and production mobile applications at Africa's leading integrated digital payments company. Focused on R&D, IoT integration, and developer tooling.",
     achievements: [
-      "Developing mobile applications using React Native",
-      "Building innovative solutions for the payments ecosystem",
-      "Contributing to cross-functional team initiatives",
-      "More details to be updated",
+      "Implemented Bluetooth Low Energy (BLE) offline capabilities in Quickteller Smart Meter app, enabling direct communication between energy meters and mobile devices - reducing dependency on network connectivity by 100%",
+      "Developed first POC integrating Mifare Classic/DESFire EMV cards for offline payments, supporting Verve card business line expansion into network-limited regions",
+      "Built NFC-based transport payment POC enabling tap-and-go payments and real-time account balance checks on mobile devices - laying groundwork for contactless transit solutions",
+      "Built and published Interswitch Payment Gateway SDK for React Native, reducing merchant integration time from weeks to hours",
+      "Implemented AI-powered customer assistant using RAG (Retrieval-Augmented Generation) pipeline in Quickteller Energy app, improving user self-service resolution",
+      "Architected web application observability system using OpenTelemetry, developing flexible SDK library for metrics, logs, and traces collection across multiple products",
+      "Collaborated with Embedded Engineers on Bluetooth 5 and MQTT integrations, enabling real-time hardware-to-mobile data exchange; open-sourced MQTT client SDK for React Native",
+      "Developed Mobile API Debugger tool, reducing QA testing bottlenecks and accelerating bug identification cycles",
+      "Championed automated error handling workflow integrating application crash analytics with Jira, streamlining issue tracking for QA team",
+      "Led mobile development for Quickteller Energy, Quickteller PayBox, and Quickteller PowerBox applications",
+      "Mentored software engineering interns on frontend development fundamentals and product building best practices",
     ],
-    technologies: ["React Native", "Mobile Application Development", "TypeScript", "JavaScript"],
+    technologies: ["React Native", "Expo", "TypeScript", "Bluetooth Low Energy", "MQTT", "OpenTelemetry", "AI/RAG", "EMV/NFC", "Native Modules"],
     current: true,
   },
   {
@@ -55,7 +62,7 @@ export const workExperience: WorkExperience[] = [
     period: "Aug 2021 - Jan 2024",
     location: "Australia (Remote)",
     description:
-      "Built proof-of-concept demo web applications demonstrating the Verida Vault's capabilities including SSO authentication, Web3 decentralized identity, and verifiable credentials.",
+      "Built proof-of-concept demo web applications demonstrating the Verida Vault's capabilities including SSO authentication, Web3 decentralized identity (DID), and verifiable credentials.",
     achievements: [
       "Utilized React, Vue, and TypeScript to build several proof-of-concept demo web applications demonstrating Verida Vault capabilities including SSO authentication, Web3 for decentralized identity creation, and the Verida-js protocol library for issuing verifiable credentials",
       "Created Vue plugins with comprehensive documentation, enabling developers to quickly get started using the protocol library with excellent developer experience",
@@ -117,8 +124,8 @@ export const projects: Project[] = [
     title: "MonBud",
     description:
       "A global platform where people share ideas, discover opportunities, and cooperate to grow in career, business, and finance.",
-    playStoreUrl: "#",
-    appStoreUrl: "#",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.finbudtechnologieslimited.monbud&hl=en",
+    appStoreUrl: "https://apps.apple.com/ng/app/monbud/id6476326261",
     image: "../../public/images/monbud.png",
   },
   {
@@ -127,7 +134,7 @@ export const projects: Project[] = [
     description:
       "Discover curated products, meals, and everyday essentials with competitive pricing and real-time delivery.",
     playStoreUrl: "#",
-    appStoreUrl: "#",
+    appStoreUrl: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en",
     image: "../../public/images/amatnow_store.png",
   },
 ];

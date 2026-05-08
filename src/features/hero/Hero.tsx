@@ -150,7 +150,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            {profile.title}
+            {profile.title}{" - "}
             <span className="text-accent">{profile.company}</span>
           </motion.h2>
 
