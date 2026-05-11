@@ -108,7 +108,7 @@ export const projects: Project[] = [
       "Smart Energy App for managing Interswitch meters. Remote meter top-up, energy tracking, and seamless power management.",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.quickteller.energy",
     appStoreUrl: "#",
-    image: "../../public/images/qt_energy.png",
+    image: "/images/qt_energy.png",
   },
   {
     id: "2",
@@ -117,7 +117,7 @@ export const projects: Project[] = [
       "A platform that enables parents to enrol, monitor, and stay engaged with their child's creche in one place.",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.ceven.app",
     appStoreUrl: "#",
-    image: "../../public/images/ceven.png",
+    image: "/images/ceven.png",
   },
   {
     id: "3",
@@ -126,7 +126,7 @@ export const projects: Project[] = [
       "A global platform where people share ideas, discover opportunities, and cooperate to grow in career, business, and finance.",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.finbudtechnologieslimited.monbud&hl=en",
     appStoreUrl: "https://apps.apple.com/ng/app/monbud/id6476326261",
-    image: "../../public/images/monbud.png",
+    image: "/images/monbud.png",
   },
   {
     id: "4",
@@ -135,7 +135,7 @@ export const projects: Project[] = [
       "Discover curated products, meals, and everyday essentials with competitive pricing and real-time delivery.",
     playStoreUrl: "#",
     appStoreUrl: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en",
-    image: "../../public/images/amatnow_store.png",
+    image: "/images/amatnow_store.png",
   },
 ];
 
