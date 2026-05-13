@@ -6,7 +6,7 @@ export const RESUME_LINK = "https://docs.google.com/document/d/1goQoqk0VHZWyOvXU
 
 export const profile = {
   name: "Michael Chinweike",
-  title: "Software Engineer",
+  title: "Senior Software Engineer",
   company: "Mobile Applications",
   description:
     "I build mobile applications at the intersection of fin-tech, IoT, and AI. Currently at Interswitch Innovation Lab, I ship production apps, develop open source SDKs, and bridge the gap between hardware and software, from Bluetooth meters to NFC payments to AI-powered experiences.",
@@ -34,7 +34,7 @@ export const workExperience: WorkExperience[] = [
   {
     id: "1",
     company: "Interswitch Group",
-    role: "Software Engineer - Innovation Lab",
+    role: "Software Engineer",
     period: "Feb 2024 - Present",
     location: "Lagos State, Nigeria",
     description:

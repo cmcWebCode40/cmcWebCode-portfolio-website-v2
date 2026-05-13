@@ -41,7 +41,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             </h3>
 
             <p
-              className="text-sm leading-relaxed line-clamp-2"
+              className="text-sm leading-relaxed line-clamp-6"
               style={{ color: "var(--text-secondary)" }}
             >
               {project.description}
