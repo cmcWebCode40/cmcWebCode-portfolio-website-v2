@@ -23,7 +23,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       }}
     >
       <div className="flex flex-col sm:flex-row">
-        <div className="sm:w-36 h-32 sm:h-auto overflow-hidden flex-shrink-0">
+        <div className="sm:w-40 h-32 sm:h-auto overflow-hidden flex-shrink-0">
           <img
             src={project.image}
             alt={project.title}
@@ -49,32 +49,36 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           </div>
 
           <div className="flex items-center gap-3 mt-3">
-            <a
-              href={project.playStoreUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs px-3 py-1.5 border transition-all hover:border-accent hover:text-accent"
-              style={{
-                borderColor: "var(--border)",
-                color: "var(--text-secondary)"
-              }}
-            >
-              <FaGooglePlay size={12} />
-              <span>Play Store</span>
-            </a>
-            <a
-              href={project.appStoreUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs px-3 py-1.5 border transition-all hover:border-accent hover:text-accent"
-              style={{
-                borderColor: "var(--border)",
-                color: "var(--text-secondary)"
-              }}
-            >
-              <FaAppStore size={12} />
-              <span>App Store</span>
-            </a>
+            {project.playStoreUrl && (
+              <a
+                href={project.playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 text-xs px-3 py-1.5 border transition-all hover:border-accent hover:text-accent"
+                style={{
+                  borderColor: "var(--border)",
+                  color: "var(--text-secondary)",
+                }}
+              >
+                <FaGooglePlay size={12} />
+                <span>Play Store</span>
+              </a>
+            )}
+            {project.appStoreUrl && (
+              <a
+                href={project.appStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 text-xs px-3 py-1.5 border transition-all hover:border-accent hover:text-accent"
+                style={{
+                  borderColor: "var(--border)",
+                  color: "var(--text-secondary)",
+                }}
+              >
+                <FaAppStore size={12} />
+                <span>App Store</span>
+              </a>
+            )}
           </div>
         </div>
       </div>

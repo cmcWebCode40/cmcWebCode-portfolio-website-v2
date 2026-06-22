@@ -1,8 +1,10 @@
 export const GITHUB_LINK = "https://github.com/cmcWebCode40";
-export const LINKEDIN_LINK = "https://www.linkedin.com/in/michael-chinonso-chinweike-467360a8/";
+export const LINKEDIN_LINK =
+  "https://www.linkedin.com/in/michael-chinonso-chinweike-467360a8/";
 export const TWITTER_LINK = "https://twitter.com/cmcWebCode/";
 export const EMAIL_LINK = "infinitymichael7@gmail.com";
-export const RESUME_LINK = "https://docs.google.com/document/d/1goQoqk0VHZWyOvXUgLRYZPnNobxmd-4HZ0ZnTz4n6lI/edit?usp=sharing";
+export const RESUME_LINK =
+  "https://docs.google.com/document/d/1goQoqk0VHZWyOvXUgLRYZPnNobxmd-4HZ0ZnTz4n6lI/edit?usp=sharing";
 
 export const profile = {
   name: "Michael Chinweike",
@@ -52,7 +54,17 @@ export const workExperience: WorkExperience[] = [
       "Led mobile development for Quickteller Energy, Quickteller PayBox, and Quickteller PowerBox applications",
       "Mentored software engineering interns on frontend development fundamentals and product building best practices",
     ],
-    technologies: ["React Native", "Expo", "TypeScript", "Bluetooth Low Energy", "MQTT", "OpenTelemetry", "AI/RAG", "EMV/NFC", "Native Modules"],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Bluetooth Low Energy",
+      "MQTT",
+      "OpenTelemetry",
+      "AI/RAG",
+      "EMV/NFC",
+      "Native Modules",
+    ],
     current: true,
   },
   {
@@ -70,7 +82,15 @@ export const workExperience: WorkExperience[] = [
       "Translated Figma designs for User Badge claiming into the mobile application codebase using React Native",
       "Carried out regression testing on the Verida mobile wallet using Qase testing platform",
     ],
-    technologies: ["TypeScript", "React", "Vue", "React Native", "Web3", "Blockchain", "Mobile Application Development"],
+    technologies: [
+      "TypeScript",
+      "React",
+      "Vue",
+      "React Native",
+      "Web3",
+      "Blockchain",
+      "Mobile Application Development",
+    ],
     current: false,
   },
   {
@@ -95,19 +115,29 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  playStoreUrl: string;
-  appStoreUrl: string;
+  playStoreUrl: string | null;
+  appStoreUrl: string | null;
   image: string;
 }
 
 export const projects: Project[] = [
   {
+    id: "0",
+    title: "ConXplore",
+    description:
+      "Save content links from any app, scan QR codes to capture content instantly, organize into folders, and set reminders so nothing gets forgotten.",
+    playStoreUrl: null,
+    appStoreUrl: "https://apps.apple.com/us/app/conxplore/id6777921682",
+    image: "/images/conxplore.png",
+  },
+  {
     id: "1",
     title: "Quickteller Energy",
     description:
       "Smart Energy App for managing Interswitch meters. Remote meter top-up, energy tracking, and seamless power management.",
-    playStoreUrl: "https://play.google.com/store/apps/details?id=com.quickteller.energy",
-    appStoreUrl: "#",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.quickteller.energy",
+    appStoreUrl: null,
     image: "/images/qt_energy.png",
   },
   {
@@ -116,7 +146,7 @@ export const projects: Project[] = [
     description:
       "A platform that enables parents to enrol, monitor, and stay engaged with their child's creche in one place.",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.ceven.app",
-    appStoreUrl: "#",
+    appStoreUrl: null,
     image: "/images/ceven.png",
   },
   {
@@ -124,7 +154,8 @@ export const projects: Project[] = [
     title: "MonBud",
     description:
       "A global platform where people share ideas, discover opportunities, and cooperate to grow in career, business, and finance.",
-    playStoreUrl: "https://play.google.com/store/apps/details?id=com.finbudtechnologieslimited.monbud&hl=en",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.finbudtechnologieslimited.monbud&hl=en",
     appStoreUrl: "https://apps.apple.com/ng/app/monbud/id6476326261",
     image: "/images/monbud.png",
   },
@@ -133,8 +164,9 @@ export const projects: Project[] = [
     title: "AmatNow",
     description:
       "Discover curated products, meals, and everyday essentials with competitive pricing and real-time delivery.",
-    playStoreUrl: "#",
-    appStoreUrl: "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en",
+    playStoreUrl: null,
+    appStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.amatnow.app.amatnow&hl=en",
     image: "/images/amatnow_store.png",
   },
 ];
@@ -184,7 +216,8 @@ export const openSourceProjects: OpenSourceProject[] = [
     description:
       "A lightweight, high-performance MQTT client with native Android and iOS support. Supports MQTT 3.1.1, TLS/SSL, QoS 0/1/2, and Expo.",
     githubUrl: "https://github.com/cmcWebCode40/react-native-mqtt-client",
-    npmUrl: "https://www.npmjs.com/package/@ecodevstack/react-native-mqtt-client",
+    npmUrl:
+      "https://www.npmjs.com/package/@ecodevstack/react-native-mqtt-client",
     language: "TypeScript",
   },
   {
